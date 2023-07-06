@@ -8,5 +8,5 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://www.frontendmentor.io/solutions/results-summary-component-solution-responsive-using-flexbox-28w4mj68xa
+- Live Site URL: https://unkookerinho.github.io/Results-summary-component-solution/

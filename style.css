@@ -9,7 +9,7 @@
 
 /* Body */
 body {
-    background-color: hsla(0, 0%, 90%, 0.9);
+    background-color: hsla(0, 0%, 90%);
     min-height: 100vh;
     
     display: flex;
@@ -85,7 +85,7 @@ h1 {
     font-size: 1rem;
 }
 
-h3 {
+h2 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
