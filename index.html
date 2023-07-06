@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="result">
+        <h1>Your Result</h1>
+        <div class="circle">
+          <p>76 <span>of 100</span></p>
+        </div>
+        <h3>Great</h3>
+        <p class="score">
+          You scored higher than 65% of<br />
+          the people who have taken<br />
+          these tests.
+        </p>
+      </section>
+      <section class="summary">
+        <section class="categories">
+          <h2 class="summary-heading">Summary</h2>
+          <p class="category" id="reaction">
+            <span
+              ><img
+                src="assets\images\icon-reaction.svg"
+                alt="Reaction category icon"
+              />
+              Reaction</span
+            >
+            <span class="pts">80 <span class="max">/ 100</span></span>
+          </p>
+          <p class="category" id="memory">
+            <span
+              ><img
+                src="assets\images\icon-memory.svg"
+                alt="Memory category icon"
+              />
+              Memory </span
+            ><span class="pts">92 <span class="max">/ 100</span></span>
+          </p>
+          <p class="category" id="verbal">
+            <span
+              ><img
+                src="assets\images\icon-verbal.svg"
+                alt="Verbal category icon"
+              />
+              Verbal </span
+            ><span class="pts">61 <span class="max">/ 100</span></span>
+          </p>
+          <p class="category" id="visual">
+            <span
+              ><img
+                src="assets\images\icon-visual.svg"
+                alt="Visual category icon"
+              />
+              Visual </span
+            ><span class="pts">72 <span class="max">/ 100</span></span>
+          </p>
+          <button class="continue"><span>Continue</span></button>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/Unkookerinho" target="_blank">Unkookerinho</a
+      >.
+    </footer>
+  </body>
+</html>
