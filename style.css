@@ -9,7 +9,6 @@
 
 /* Body */
 body {
-    background-color: hsla(0, 0%, 90%);
     min-height: 100vh;
     
     display: flex;
@@ -29,6 +28,8 @@ main {
     align-items: center;
     justify-content: center;
     margin: auto;
+    border-radius: 30px;
+    box-shadow: 8px 8px 24px 0px rgb(190, 192, 216);
 }
 
 /* 
